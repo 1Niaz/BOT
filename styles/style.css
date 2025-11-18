@@ -252,7 +252,7 @@ body{
     .intro__section .info{
         width: 100%;
     }
-    .intro__section .title{
+    .intro__section .title, .intro__section span{
         font-size: 32px;
     }
     .intro__section .image{
