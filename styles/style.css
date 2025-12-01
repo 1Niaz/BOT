@@ -266,8 +266,12 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .button .pc__info{
+    .pc__info{
         display: none;
+    }
+    .button__container{
+        display: grid;
+        place-items: center;
     }
 }
 
