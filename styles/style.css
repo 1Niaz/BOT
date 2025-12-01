@@ -1278,6 +1278,18 @@ body{
     font-size: 14px;
 }
 
+.footer .button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.footer .download{
+    color: #fff;
+    z-index: 1;
+}
+
 @media screen and (max-width: 1200px) {
     .top__block .container{
         align-items: center;
