@@ -408,6 +408,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .ladno__right{
@@ -648,6 +649,14 @@ body{
     }
 }
 
+@media screen and (max-width: 768px) {
+    .marketing__cards__list {
+        display: flex;
+        overflow: hidden;
+        gap: 20px;
+    }
+}
+
 
 @media screen and (max-width: 480px) {
     .marketing__cards__title{
@@ -662,7 +671,6 @@ body{
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
-
 .marketing__cards__item{
     padding: 50px;
     background-color: var(--direction-item-bg);
@@ -1313,6 +1321,10 @@ body{
     z-index: 1;
 }
 
+.footer .mobile__info{
+    display: none;
+}
+
 @media screen and (max-width: 1200px) {
     .top__block .container{
         align-items: center;
@@ -1323,6 +1335,12 @@ body{
     }
     .footer .download{
         display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer .mobile__info{
+        display: block;
     }
 }
 
